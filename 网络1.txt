@@ -53,3 +53,64 @@ HTTP状态码
 
 cookie字段根据每个域名会保存一份
 cookie长度有限，有些浏览器长度上限4K
+
+
+
+通过几种方式获取到元素（标签）对象：
+（1）document集合属性的方式
+（2）查询关系的方式
+（3）document对象的方法
+
+在JS中，正则表达式的一些基本语法：
+1.数量词
+X+
+X?
+X{n,m}
+X*
+2.检验用户名是否符合正则规则
+获取到用户到输入的用户名
+定义正则 var reg = /xxx/;
+使用当前正则规则匹配的方法：test（获取的字符串内容）
+3.表单认证
+
+JQuery：就是一个JS代码库
+选择器：id,class,元素,*,并集选择器
+write less,do more
+Prototype：原型
+
+Bootstrap
+
+自定义对象：定义对象：function+函数名，创建对象：var 对象名 = new 函数名();
+（1）有参方式
+（2）无参方式
+（3）var 对象名称 = new Object();
+        对象名称.属性名 = “属性值”
+        对象名称.方法名 =function(){...}
+（4）字面量的方式：json格式
+            {"key1":"value1","key2":"value2"...}
+        var 对象名称={
+            "key1":"value1",
+            "key2":"value2"...
+            "方法名":function(){...};
+}
+
+js原型：Prototype
+给内置对象中添加方法去使用
+js原型的简写方式
+Array对象：本身的内置方法：reverse(),join("xx")
+给Array对象追加一些其他的方法：利用Prototype
+格式：内置对象.protptype.自定义的方法名=function(形式)参数{
+        //具体方法中算法
+}
+
+BOM编程
+基于浏览器对象模型，封装了四个对象
+Window 对象:window对象可以省略不写
+    定义一个遍历 taskld = Window.setInterval("任务 function",毫秒)
+        结束定时器:clearInterval(taskId)
+    setTimeout("任务 function",毫秒)
+        结束当前tiemout定时器
+            clearTiemout(taskId)
+Window.alter
+Window.cofirm();
+open("url","打开",)
