@@ -1,0 +1,34 @@
+有三种方式获取元素对象
+方式一：通过document集合属性获取
+all：获取当前HTML页面中所有标签对象
+
+
+方式二：通过查询关系获取标签对象
+parentNode
+childNodes
+firstChild
+lastChild
+nextSibling
+previousSibling
+
+方式三：通过document对象的方法来获取标签对象
+（1）通过ID属性获取标签对象，ID唯一
+document.getElementById("id 属性值");
+（2）通过name属性获取标签对象，name属性可以一致的
+document.getElementByName("name 属性值");
+（3）通过标签名称获取标签对象
+document.getElementByTagName("标签名称");
+（4）通过class属性来获取标签对象
+document.getElementClass("Class 属性值");
+
+关于文档对象创建标签对象的一些方法
+	document.createElement("标签名称")；
+	创建属性的方法
+	标签对象.setAttribute("属性","属性值")；
+	删除节点方法
+	父节点对象.removeChilde(子节点对象)；
+	.
+	.
+	.
+	.
+
