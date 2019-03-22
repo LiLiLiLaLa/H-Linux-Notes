@@ -1,4 +1,4 @@
-有三种方式获取元素对象
+﻿有三种方式获取元素对象
 方式一：通过document集合属性获取
 all：获取当前HTML页面中所有标签对象
 
@@ -30,4 +30,54 @@ document.getElementClass("Class 属性值");
 	.
 	.
 	.
+
+
+
+XML解析：DOM解析、SAX解析
+
+xpath：使用特定语法快速定位到一个某个节点
+xpath是dom4j工具中一个插件：jaxen-1.1-beta-6jar
+要使用xpath必须导入jar包
+
+xpath中涉及的两个方法：
+
+查询某个节点：selectSingleNode("xpath 表达式");——>Node对象
+查询多个节点：selectNode("xpath 表达式")——>List<Node>
+
+xpath语法规则
+
+/    表达绝对路径：如果以/开头，选中的是根元素，如果/在之间表示选中的是子元素
+//    不分层次结构关系(用的最多)
+        //contact/：不分层级关系选中当前xml文件中所有contact标签
+*    通配符号：所有的标签
+        //contact/*：不分层级关系选中contact标签中所有的子标签
+[ ]    一般进一步确定元素的位置：类似于语文中的定语
+@    指定属性
+=    ...的值是
+and    逻辑与：并且的关系
+Text()    指定文本
+
+使用dom4j不仅可以解析xml文件，也可以解析标准的html文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
