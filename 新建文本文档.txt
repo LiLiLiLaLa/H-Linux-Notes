@@ -31,8 +31,6 @@ document.getElementClass("Class 属性值");
 	.
 	.
 
-
-
 XML解析：DOM解析、SAX解析
 
 xpath：使用特定语法快速定位到一个某个节点
@@ -58,26 +56,3 @@ and    逻辑与：并且的关系
 Text()    指定文本
 
 使用dom4j不仅可以解析xml文件，也可以解析标准的html文件
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
