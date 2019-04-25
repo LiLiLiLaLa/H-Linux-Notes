@@ -2,6 +2,7 @@
 方式一：通过document集合属性获取
 all：获取当前HTML页面中所有标签对象
 
+
 方式二：通过查询关系获取标签对象
 parentNode
 childNodes
